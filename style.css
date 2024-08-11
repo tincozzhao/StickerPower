@@ -1,0 +1,51 @@
+html, body{
+    margin: 0px;
+    background-color: rgb(243, 136, 209);
+}
+
+.BannerImage{
+    /* background attributes */
+    background-image: linear-gradient(var(--gradient1), rgb(255, 203, 203)), url();
+    height: 90%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    /* text attributes */
+    text-align: center;
+    font-size: 100px;
+    font-family: "Josefin Sans", sans-serif;
+
+    padding-top: 5%;
+    color: wheat;
+}
+
+/*add a black background color to the top navigation */
+.navBar {
+    background-color:rgb(255, 203, 203);
+    overflow: hidden;
+}
+
+/*Style the links inside the navigation bar */
+.navBar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navBar a:hover {
+    background-color: white;
+    color:rgb(255, 141, 141);
+}
+
+/* Add a color to the active/current link*/
+.navBar a.active {
+    background-color:rgb(255, 178, 178);
+    color: white;
+}
