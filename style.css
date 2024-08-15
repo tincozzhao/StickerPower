@@ -18,7 +18,7 @@ html, body{
         /* text attributes */
         text-align: center;
         font-size: 100px;
-        font-family: "Josefin Sans", sans-serif;
+        font-family: 'Starborn', sans-serif;
     
         margin-left: 5%;
         margin-right: 5%;
@@ -32,7 +32,7 @@ html, body{
     text-align: right;
     float:right;
     font-size: 50px;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'BabyDoll', sans-serif;
 
     margin-left: 5%;
     margin-right: 5%;
@@ -45,7 +45,10 @@ html, body{
     text-align: left;
     float:left;
     font-size: 50px;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'BabyDoll', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 
     margin-left: 5%;
     margin-right: 5%;
@@ -67,6 +70,7 @@ html, body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+
 }
 
 /* Change the color of links on hover */
@@ -79,4 +83,40 @@ html, body{
 .navBar a.active {
     background-color:rgb(255, 178, 178);
     color: white;
+}
+
+.banner-button {
+
+    width: 40%;
+    height: 8%;
+
+    padding: 10px 40px;
+
+    color:#4960d3;
+    background-color: #fff;
+
+    /* Border */
+    border: 2px solid #9dcbff;
+    border-radius: 35px;
+    outline: 2px solid rgb(150, 234, 255);
+
+    /* Button Shadow */
+    box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.537);
+    transition: all 0.3s ease 0s;
+
+    /* Font and Text */
+    font-family: 'Starborn', sans-serif;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+
+.banner-button:hover {
+    background-color: #f4f491;
+    box-shadow: 0px, 15px, 20px rgba(213, 170, 75, 0.4);
+    color: #d18500;
+    transform: translateY(-7px);
 }
