@@ -6,8 +6,6 @@ html, body{
 .main-logo{
     text-align: center;
     width: 100%;
-    height: auto;
-
 }
 
 .BannerImage{
@@ -19,6 +17,8 @@ html, body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
+
 }
 
 .banner-title{
@@ -29,7 +29,10 @@ html, body{
     
         margin-left: 5%;
         margin-right: 5%;
+        margin-bottom: 0.1%;
+        margin-top: 1%;
         padding-top: 5%;
+        padding-bottom: 1%;
         color: wheat;
 }
 
@@ -43,7 +46,10 @@ html, body{
 
     margin-left: 5%;
     margin-right: 5%;
-    padding-top: 5%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     color: wheat;
 }
 .banner-description-left{
@@ -59,7 +65,10 @@ html, body{
 
     margin-left: 5%;
     margin-right: 5%;
-    padding-top: 5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     color: wheat;
 }
 
