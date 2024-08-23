@@ -3,6 +3,13 @@ html, body{
     background-color: rgb(255, 199, 213);
 }
 
+.main-logo{
+    text-align: center;
+    width: 100%;
+    height: auto;
+
+}
+
 .BannerImage{
     /* background attributes */
     background-image: linear-gradient(var(--gradient1), rgb(255, 203, 203)), url();
@@ -20,7 +27,6 @@ html, body{
         font-size: 600%;
         font-family: 'Starborn', sans-serif;
     
-        object-fit: contain;
         margin-left: 5%;
         margin-right: 5%;
         padding-top: 5%;
