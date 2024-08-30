@@ -1,0 +1,16 @@
+[
+    {
+        "title": "test sticker 1",
+        "price": 0.99,
+        "Quantity": 10,
+        "Organization": "By Kids For Kids",
+        "Image": "sticker-power-logo-final.png"
+    },
+    {
+        "title": "test sticker 2",
+        "price": 1.99,
+        "Quantity": 10,
+        "Organization": "Stemsters",
+        "Image": "sticker-power-logo-final.png"
+    }
+]

@@ -11,6 +11,27 @@ html, body{
     float: right;
 }
 
+.Product-Grid{
+    padding: 8%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 40px;
+}
+
+.Product-Item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgb(236, 98, 98);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px; /* Set a fixed height */
+}
+
 .BannerImage{
     /* background attributes */
     background-image: linear-gradient(var(--gradient1), rgb(255, 203, 203)), url();
