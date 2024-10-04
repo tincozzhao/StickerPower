@@ -13,60 +13,75 @@
 
         <!-- STYLES -->
         <link rel = "stylesheet" type = "text/css" href = "style.css">
+       
+        <script src ="script.js"></script>
 
-        <!--NAVIGATION BAR -->
-        <div class="navBar">
+           <!--NAVIGATION BAR -->
+           <div class="navBar">
             <a href = "Home.html" > Home</a>
             <a href = "Store.html">Store</a>
             <a href = "Communities.html">Communities</a>
             <a href = "Charities.html">Charities</a>
-            <a>About</a>
+            <a href = "About.html">About</a>
             <a>Contact Us</a>
+            
         </div>
-        <script src ="script.js"></script>
     </head>
     <body>
 
-        <div id="homepage" style = "--gradient1: rgb(243, 136, 209);">
+       
+        <div id="homepage">
 
 
-                <img src="sticker-power-logo-final.png" class = "main-logo" alt ="stickerpower logo" >
+            <h1 id = "title">STICKER POWER!</h1>
+                <!-- <img src="sticker-power-logo-final.png" class = "main-logo" alt ="stickerpower logo" > -->
             <div class = "banner-title" style="font-size: 300%; ">
                 helping communities with the power of stickers!
             </div>
         </div>
-        <div class="BannerImage" style = "--gradient1: rgb(136, 182, 243); text-align: left;">
+        <div class="BannerImage" >
             <div class = "banner-title" style="text-align: left;">
                 Communities
             </div>
             <p class="banner-description-left">
                 hi! this is the comminities description here we will talk about the communities blablablablabalbalaabalabla
             </p>
-            <div class = "banner-description-left">
-                <button class = "banner-button">click here!!!</button>
-            </div>
+
+
+            <a href = "Communities.html" class ="banner-description-left">
+                <button class = "banner-button" onclick = "google.com" type = "button">click here!!!</button>
+            </a>
+
+
         </div>
-        <div class="BannerImage" style = "--gradient1: rgb(243, 222, 136); text-align: right;">
-            <div class = "banner-title" style="text-align: right; color: rgb(208, 163, 80); ">
+        <div class="BannerImage" >
+            <div class = "banner-title" style="text-align: right;">
                 Charities
             </div>
-            <p class="banner-description-right" style="color: rgb(208, 163, 80)">
+            <p class="banner-description-right" >
                 hi! this is the charities description here we will talk about the ccjatorotes  blablablablabalbalaabalabla
             </p>
-            <div class = "banner-description-right"> 
+
+
+            <a href = "Charities.html" class = "banner-description-right"> 
                 <button class = "banner-button">click here</button>
-            </div>
+            </a>
+
+
         </div>
-        <div class="BannerImage" style = "--gradient1: rgb(121, 178, 122);">
+        <div class="BannerImage">
             <div class = "banner-title">
                 About
             </div>
             <p class="banner-description-left">
                 hi! this is the about description here we will talk about the ccreapr blablablablabalbalaabalabla
             </p>
-            <div class = "banner-description-left">
+
+            <a href = "About.html" class = "banner-description-left">
                 <button class = "banner-button">click here</button>
-            </div>
+            </a>
+
+
         </div>
     </body>
 </html>
